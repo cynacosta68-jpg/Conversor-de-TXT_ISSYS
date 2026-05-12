@@ -118,11 +118,11 @@ def process(prest_bytes: BytesIO, base_bytes: BytesIO):
                 return 0.0
 
         if safe_float(row["Honorario"]) != 0:
-            types.append(("1", "1"))
+            types.append(("1", "0"))
         if safe_float(row["1er_ayudante"]) != 0:
-            types.append(("1", "3"))
+            types.append(("1", "2"))
         if safe_float(row["2do_ayudante"]) != 0:
-            types.append(("1", "3"))
+            types.append(("1", "2"))
         if safe_float(row["gasto"]) != 0:
             types.append(("2", "2"))
 
