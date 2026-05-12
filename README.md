@@ -1,4 +1,4 @@
-# Generador a0100002.txt
+# Generador de txt ISSYS
 
 Aplicación web que convierte los archivos Excel de prestaciones en el archivo TXT con formato de campos fijos separados por coma.
 
