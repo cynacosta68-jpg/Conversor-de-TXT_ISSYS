@@ -12,7 +12,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("📄 Generador de archivo a0100002.txt")
+st.title("📄 Generador TXT ISSYS")
 st.markdown(
     "Subí los dos archivos Excel y el sistema genera automáticamente "
     "el TXT con el formato requerido (campos separados por coma, longitud fija)."
