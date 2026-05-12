@@ -171,5 +171,17 @@ if prest_file and base_file:
         file_name="a0100002.txt",
         mime="text/plain",
     )
+
+    # ── Enlace a ISSYS para subir el TXT ──
+    st.divider()
+    st.markdown("### 🚀 Paso siguiente: subir el archivo a ISSYS")
+    st.markdown(
+        "Una vez descargado el TXT, hacé click en el botón "
+        "para ir a la página de carga de ISSYS."
+    )
+    st.link_button(
+        label="🌐 Ir a ISSYS — Subir archivo",
+        url="https://extranet.issys.gov.ar/FacturacionInternet/subida/indicarPrestador.jsp",
+    )
 else:
     st.info("👆 Subí ambos archivos Excel para comenzar el proceso.")
