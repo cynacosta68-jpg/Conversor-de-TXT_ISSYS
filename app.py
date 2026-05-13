@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 from datetime import datetime
+from auth import login_required
+login_required()
 
 # ──────────────────────────────────────────────────────────────
 # Configuración de página
